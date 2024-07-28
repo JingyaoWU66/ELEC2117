@@ -1,0 +1,13 @@
+name = "my_example_pkg"
+uuid = "10cc51b7-e230-4b36-be68-ac656d5eaad4"
+authors = ["JingyaoWU66 <jingyao.wu@unsw.edu.au> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
